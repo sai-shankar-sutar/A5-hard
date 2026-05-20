@@ -81,6 +81,12 @@ nav .right .cart::after {
   border-radius: 20px;
 }
 
+hr {
+  margin-top: 2vh;
+  background-color: grey;
+  height: 2px;
+}
+
 main {
   font-family: "Inter";
   width: 100%;

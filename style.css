@@ -178,7 +178,7 @@ main div p {
 .stratergies::after {
   content: "OUR WORK";
   position: absolute;
-  left: 0;
+  left: 1%;
   bottom: 0;
   font-size: 0.9rem;
 }
@@ -197,9 +197,16 @@ main div p {
 .selected .top h1 {
   font-size: 3rem;
 }
-.selected .top button {
+.selected .top .lo {
+  display: flex;
+  height: 10vh;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.selected .top .lo button {
   background-color: white;
-  padding: 10px 40px;
+  padding: 20px 40px;
   border-radius: 40px;
 }
 .selected .top button:hover {

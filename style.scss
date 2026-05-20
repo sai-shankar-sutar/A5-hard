@@ -185,7 +185,7 @@ main {
 .stratergies::after {
   content: "OUR WORK";
   position: absolute;
-  left: 0;
+  left: 1%;
   bottom: 0;
   font-size: 0.9rem;
 }
@@ -204,12 +204,20 @@ main {
     h1 {
       font-size: 3rem;
     }
-    
-    button {
+    .lo{
+      display: flex;
+      height:10vh;
+      width:100%;
+      justify-content: space-between;
+      align-items: center;
+      button {
       background-color: white;
-      padding: 10px 40px;
+      padding: 20px 40px;
       border-radius: 40px;
     }
+    }
+    
+    
     button:hover {
       color: rgb(255, 255, 255);
       background-color: black;

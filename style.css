@@ -14,7 +14,7 @@ body {
 
 nav {
   width: 100%;
-  min-height: 5vh;
+  min-height: 10vh;
   display: flex;
   justify-content: space-between;
 }
@@ -61,7 +61,7 @@ nav .right .anchors a:hover:before {
 }
 nav .right .touch {
   padding: 10px;
-  border: 2px black solid;
+  border: 1px black solid;
   border-radius: 20px;
 }
 nav .right .touch:hover {
@@ -88,9 +88,10 @@ hr {
 }
 
 main {
+  border-top: 1px solid grey;
   font-family: "Inter";
   width: 100%;
-  min-height: 82vh;
+  min-height: 72vh;
   display: flex;
   gap: 40px;
   flex-direction: column;
@@ -157,6 +158,7 @@ main div p {
   justify-content: center;
   align-items: start;
   position: relative;
+  gap: 10px;
 }
 .stratergies .work {
   position: absolute;
@@ -193,7 +195,6 @@ main div p {
   min-height: 50vh;
 }
 .selected .top {
-  padding: 1%;
   display: flex;
   width: 100%;
   flex-direction: column;
@@ -220,15 +221,13 @@ main div p {
   background-color: black;
 }
 .selected .cards {
-  padding: 1%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+  gap: 2rem;
 }
 .selected .cards .img {
-  max-width: 42vw;
-  height: 40vh;
-  box-sizing: border-box;
+  border: 2px solid red;
   overflow: hidden;
 }
 .selected .cards .img img {
@@ -242,10 +241,8 @@ main div p {
   transform: scale(1.1);
 }
 .selected .cards .bottom {
-  z-index: 1;
   background-color: white;
-  width: 42vw;
-  height: 7vh;
+  margin-top: 2vh;
   display: flex;
   justify-content: space-between;
   align-items: center;

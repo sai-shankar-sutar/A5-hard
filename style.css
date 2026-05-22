@@ -124,8 +124,7 @@ main div p {
   display: flex;
   align-items: center;
 }
-
-.logo {
+.infinite .logo {
   display: flex;
   align-items: center;
   gap: 120px;
@@ -134,11 +133,8 @@ main div p {
   flex-shrink: 0;
   animation: scroll 15s linear infinite;
 }
-.logo img {
+.infinite .logo img {
   height: 40px;
-}
-.logo .infinite:hover .logo {
-  animation-play-state: paused;
 }
 
 @keyframes scroll {
@@ -149,9 +145,12 @@ main div p {
     transform: translateX(calc(-50% - 40px));
   }
 }
+.infinite:hover .logo {
+  animation-play-state: paused;
+}
+
 .stratergies {
-  padding: 0px 10px;
-  min-height: 60vh;
+  height: 60vh;
   width: 100%;
   display: flex;
   gap: 10vw;
@@ -167,7 +166,7 @@ main div p {
   padding: 50px;
   width: 70vw;
   height: 40vh;
-  background-color: #F4F4F5;
+  background-color: #f4f4f5;
   display: flex;
   flex-direction: column;
   gap: 20px;
